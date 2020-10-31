@@ -50,7 +50,7 @@ def solveUssingIterative(a, b, relaxation = 1, maxIterations = 100, TOL = 0.0001
             currentIteration += 1
     if errorNorm > TOL and currentIteration > maxIterations:
         print("The algorithm not converged, try setting more iterations, lowering error or incressing relaxation parameter")
-        return none
+        return None
     return x1
 
 # A = np.array([[1, -1, 0, 3], [2, 1, 2, 1], [2, -3, -2, 0], [0, 3, -2, 4]])
